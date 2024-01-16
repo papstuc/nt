@@ -6,7 +6,7 @@ it uses raii for dynamic memory allocations, throws exceptions on any error and 
 
 -----------------------------------------------------------------
 
-current following functions are implemented:
+following functions are currently implemented:
 
 * nt::find_process_id: finds a process id without opening any handles, by querying SystemProcessInformation
 * nt::find_kernel_module: finds a kernel module's base address from usermode, by querying the undocumented information class SystemModuleInformation
