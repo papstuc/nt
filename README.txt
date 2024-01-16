@@ -14,4 +14,13 @@ current following functions are implemented:
 
 -----------------------------------------------------------------
 
+project structure:
+
+* nt.cpp/hpp: contain the source code of the library itself
+* nt_def.hpp: contains undocumented winapi structs used by the library, both for x86 and x64
+* nt_api.hpp: contains undocumented/unexported winapi functions used by the library
+* entry.cpp: contains a sample usage of the library
+
+-----------------------------------------------------------------
+
 contributing: any help is greatly appreciated! simply open a pr, describe what your addition does, why it should be added and wait for replies and a possible merge.
