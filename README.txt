@@ -1,7 +1,7 @@
 nt - game hacking focused winapi functions wrapped in modern c++ 
 -----------------------------------------------------------------
 
-this small library tries to combine the old C winapi functions into a portable and modern c++ library which can then be used in any project of your choice.
+this small library tries to combine the old c winapi functions into a portable and modern c++ library which can then be used in any project of your choice.
 it uses raii for dynamic memory allocations, throws exceptions on any error and expects views of strings to be passed in as parameters to avoid overhead.
 
 -----------------------------------------------------------------
